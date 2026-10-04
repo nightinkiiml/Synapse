@@ -1,0 +1,27 @@
+{
+  "name": "hell-desk-iiml",
+  "version": "2.0.0",
+  "description": "HELL DESK — IIM Lucknow Campus Survival Super-App (Team SynapsE · Overtures 2026)",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "install:all": "npm install --workspaces",
+    "build": "npm run build --workspace=frontend",
+    "start": "npm run start --workspace=backend",
+    "dev:frontend": "npm run dev --workspace=frontend",
+    "dev:backend": "npm run dev --workspace=backend",
+    "preview": "npm run preview --workspace=frontend"
+  },
+  "keywords": [
+    "iim-lucknow",
+    "campus-survival",
+    "antigravity-ide",
+    "synapse",
+    "mvp"
+  ],
+  "author": "TUHIN MONDAL (pgp42450@iiml.ac.in)",
+  "license": "MIT"
+}
